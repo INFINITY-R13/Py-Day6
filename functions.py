@@ -12,4 +12,10 @@ def my_function():
 #calling a function
 my_function()   
 
+#Functions with inputs
+def greet(name):
+    print(f"Hi {name}")
+   
+greet("INFINITY")  
+
 
