@@ -14,8 +14,13 @@ my_function()
 
 #Functions with inputs
 def greet(name):
-    print(f"Hi {name}")
+    print(f"Hello {name}!")
    
-greet("INFINITY")  
+greet("Peter Parker")  
 
 
+def greet_with(name, location):
+    print(f"Hi {name}!")
+    print(f"What is the weather in {location}?")
+
+greet_with("Bruce Wayne", "Gotham")
