@@ -1,26 +1,31 @@
-# print is a function
+# Basic print statement
 print("Hello")
 
-#length function
-my_length = len("hello")
-print(my_length)
+# Using len() to get string length
+text_length = len("hello")
+print(f"Length of 'hello': {text_length}")
 
-#defining a function
-def my_function():
-    print("it is a function")
+# Defining a simple function
+def print_message():
+    """Prints a simple message."""
+    print("This is a function")
 
-#calling a function
-my_function()   
+# Calling the function
+print_message()
 
-#Functions with inputs
+# Function with a single input parameter
 def greet(name):
-    print(f"Hello {name}!")
-   
-greet("Peter Parker")  
+    """Greets a person by name."""
+    print(f"Hello, {name}!")
 
+# Calling the greet function
+greet("Peter Parker")
 
-def greet_with(name, location):
-    print(f"Hi {name}!")
-    print(f"What is the weather in {location}?")
+# Function with multiple input parameters
+def greet_with_location(name, location):
+    """Greets a person and asks about the weather in their location."""
+    print(f"Hi, {name}!")
+    print(f"What is the weather like in {location}?")
 
-greet_with("Bruce Wayne", "Gotham")
+# Calling the function with multiple parameters
+greet_with_location("Bruce Wayne", "Gotham")
